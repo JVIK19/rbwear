@@ -1,0 +1,54 @@
+[2025-11-06 01:34:34] Connecting to smtp.gmail.com:587 ...
+[2025-11-06 01:34:35] S: 220 smtp.gmail.com ESMTP 46e09a7af769-7c6e32d1c56sm346015a34.21 - gsmtp
+[2025-11-06 01:34:35] C: EHLO
+S: 250-smtp.gmail.com at your service, [179.253.10.42]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2025-11-06 01:34:36] C: STARTTLS
+S: 220 2.0.0 Ready to start TLS
+[2025-11-06 01:34:36] C: EHLO (after TLS)
+S: 250-smtp.gmail.com at your service, [179.253.10.42]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2025-11-06 01:34:36] C: AUTH LOGIN
+S: 334 VXNlcm5hbWU6
+[2025-11-06 01:34:37] C: <base64 user>\nS: 334 UGFzc3dvcmQ6
+[2025-11-06 01:34:37] C: <base64 pass>\nS: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 46e09a7af769-7c6e32d1c56sm346015a34.21 - gsmtp
+[2025-11-06 01:34:39] Connecting to smtp.gmail.com:587 ...
+[2025-11-06 01:34:40] S: 220 smtp.gmail.com ESMTP 586e51a60fabf-3e30a439b97sm349270fac.16 - gsmtp
+[2025-11-06 01:34:40] C: EHLO
+S: 250-smtp.gmail.com at your service, [179.253.10.42]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2025-11-06 01:34:40] C: STARTTLS
+S: 220 2.0.0 Ready to start TLS
+[2025-11-06 01:34:41] C: EHLO (after TLS)
+S: 250-smtp.gmail.com at your service, [179.253.10.42]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2025-11-06 01:34:41] C: AUTH LOGIN
+S: 334 VXNlcm5hbWU6
+[2025-11-06 01:34:41] C: <base64 user>\nS: 334 UGFzc3dvcmQ6
+[2025-11-06 01:34:42] C: <base64 pass>\nS: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 586e51a60fabf-3e30a439b97sm349270fac.16 - gsmtp
